@@ -45,8 +45,7 @@ Here is a list of all files and descriptions included in this repository:
 - `docs/Python.ipynb`: Example Jupyter Notebook file containing code for loading data from a `.csv` file and running an analysis in Python. See built webpage [here](https://shawnrhoads.github.io/executable-book-template/Python.html). 
 
 ### Hosting your Jupyter Book
-
-Once you have added, modified, or deleted any necessary files for your project, then you can publish it via GitHub Pages! To do this, go to your repository Settings > Pages, then make sure your "GitHub Pages site is currently being built from the `gh-pages` branch" and save.
+To deploy your executable book, first, navigate to Settings > Actions > General, and under "Workflow permissions", select "Read and write permissions" then click save. This will allow you to modify YAML files for customization. Once you have added, modified, or deleted any necessary files for your project, then you can publish it via GitHub Pages! To do this, go to your repository Settings > Pages, then make sure your "GitHub Pages site is currently being built from the `gh-pages` branch" with `/(roots)` and save.
 
 ## Other tips and tricks
 
